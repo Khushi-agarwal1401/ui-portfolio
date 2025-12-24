@@ -1,0 +1,19 @@
+{
+  "name": "ui-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio Web Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khushi-agarwal1401/ui-portfolio.git"
+  },
+  "author": "Khushi Agarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khushi-agarwal1401/ui-portfolio/issues"
+  },
+  "homepage": "https://github.com/Khushi-agarwal1401/ui-portfolio#readme"
+}
