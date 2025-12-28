@@ -4,15 +4,397 @@
     <meta charset="UTF-8">
     <meta name="author" content="Khushi Agarwal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INDEX</title>
-    <style>
-        .heading{
-            background-color: magenta;
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <h1 class="heading">My Portfolio</h1>
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <a href="#name">Khushi Agarwal</a>
+                <div class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#vision">Vision</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home-section">
+            <div id="home">
+                <div class="image">
+                    <img src="./public/images/Me.png" alt="Khushi Agarwal">
+                    <p class="degree">BTech Student</p>
+                </div>
+                <div class="detail-container">
+                    <div>
+                        <p id="stream">Computer Science Student</p>
+                        <h1 id="myname">Khushi Agarwal</h1>
+                        <p id="aboutme">First-Year BTech Student | Aspiring Innovator | Future Tech Entrepreneur</p>
+                        <p id="aboutaim">Building the foundation for India's technological future, one line of code at a time.</p>
+                    </div>
+                    <div class="links">                        
+                        <button id="btn1"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRpcckvTQfTqzsHRTxcxwcmTNRGBKsClNPWPLgChBvjXZtPFcTpcxnDWGbzDlRQSQlMZjkQ" target="_blank"><i class="link bi bi-envelope"></i>Get in Touch</a></button>
+                        <button class="btn2"><a href="https://github.com/Khushi-agarwal1401" target="_blank"><i class="link bi bi-github"></i>GitHub</a></button>
+                        <button class="btn2"><a href="https://www.linkedin.com/in/khushi-agarwal-a37846381/" target="_blank"><i class="link bi bi-linkedin"></i>Linkedin</a></button>
+                    </div>
+                </div>
+            </div>
+            <p id="place">📍 Based in Thane, Maharashtra, India</p>
+        </section>
+        <section id="about-section">
+            <div id="about" class="all">
+                <h1 class="heading">About Me</h1>
+                <hr class="headline">
+                <p class="intro">
+                    Hello! I'm Khushi Agarwal, a first-year Computer Science student at PW Institute of Innovation, based in Thane, Maharashtra. I've always been fascinated by how technology shapes our world, and that curiosity led me to pursue Computer Science right from my 11th and 12th grades.
+                </p>
+
+                <p class="intro">
+                    I'm someone who genuinely enjoys solving problems—whether it's debugging code, figuring out a complex algorithm, or finding creative solutions to everyday challenges. Learning is my constant companion, and I thrive on taking on new challenges that push me beyond my comfort zone. Every obstacle is an opportunity to grow, and every project is a chance to build something meaningful.
+                </p>
+
+                <p class="intro">
+                    What drives me most is a vision that goes beyond personal achievement. I dream of contributing to India's technological independence by creating our own world-class technology brand. I envision <span>'Indus'</span>—a proudly Indian mobile and computer brand, inspired by the rich legacy of the Indus Valley Civilization, one of the world's most advanced ancient societies.
+                </p>
+
+                <p class="intro">
+                    Just as our ancestors pioneered innovation thousands of years ago, I believe India can once again lead the world in technology. The Indus brand would be more than just devices—it would represent quality, affordability, and innovation designed specifically for Indian users while competing globally. By contributing to the <span>Make in India</span> initiative, I want to help create jobs, foster innovation, and prove that India can design and manufacture world-class technology products.
+                </p>
+
+                <p class="intro">
+                    I'm at the beginning of my journey, but I'm committed to learning every skill, building every project, and seizing every opportunity that brings me closer to this dream. Technology has the power to transform lives, and I want to be part of that transformation—for India and for the world.
+                </p>
+            </div>
+        </section>
+        <section id="skills-section">
+            <div id="skills" class="all common">
+                <h1 class="heading">Skills & Expertise</h1>
+                <hr class="headline">
+                <p class="stmt">Building a strong foundation in technology and personal growth</p>
+                <h2>Technical Skills</h2>
+                <div class="cards">
+                    <div class="small-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-palette"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">HTML & CSS</p>
+                                <p class="card-body">Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Building responsive and modern web layouts</div>
+                    </div>
+                    <div class="small-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-code-slash"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Python</p>
+                                <p class="card-body">Beginner-Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Core programming concepts and mini-projects</div>
+                    </div>
+                    <div class="small-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-terminal"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">C++</p>
+                                <p class="card-body">Beginner-Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">OOP concepts and problem-solving</div>
+                    </div>
+                </div>
+                <h2>Soft Skills</h2>
+                <div class="cards">
+                    <div class="small-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-lightbulb"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Problem Solving</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Breaking down complex challenges into actionable solutions</div>
+                    </div>
+                    <div class="small-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-lightning-charge"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Adaptability</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Quick learner, embracing new technologies and methods</div>
+                    </div>
+                    <div class="small-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-heart"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Curiosity</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Passionate about exploring new ideas and innovations</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects-section">
+            <div id="projects" class="all">
+                <h1 class="heading">Projects & Practice Work</h1>
+                <hr class="headline">
+                <p class="stmt">Building hands-on experience through practical projects</p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="icon1"><i class="bi bi-globe"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Personal Portfolio Website</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">A responsive portfolio website built with HTML, CSS, and modern design principles. Features clean layouts, smooth animations, and mobile-first design to showcase my work and skills effectively.</div>
+                        <div class="list c1">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="icon2"><i class="bi bi-code"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Python Mini-Projects Collection</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">A series of beginner-friendly Python applications including a functional calculator with multiple operations, an interactive number guessing game with difficulty levels, and a to-do list manager. These projects helped me grasp core programming concepts like functions, loops, and user input handling.</div>
+                        <div class="list" id="c2">
+                            <span>Python</span>
+                            <span>Logic Building</span>
+                            <span>User Input</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="icon3"><i class="bi bi-boxes"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">C++ OOP Practice Programs</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Implementation of Object-Oriented Programming concepts through practical programs. Includes classes for student management systems, bank account simulations, and library management. Focused on understanding encapsulation, inheritance, and polymorphism.</div>
+                        <div class="list" id="c3">
+                            <span>C++</span>
+                            <span>OOP</span>
+                            <span>Data Structures</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="icon4"><i class="bi bi-window"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">HTML/CSS Layout Designs</p>
+                            </div>
+                        </div>
+                        <div class="card-footer">Created multiple modern web layouts including landing pages, card-based designs, and grid systems. Practiced flexbox, CSS Grid, and responsive design techniques to build pixel-perfect, mobile-friendly interfaces.</div>
+                        <div class="list" id="c4">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Flexbox</span>
+                            <span>Grid</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="lstmt">🚀 More projects coming soon as I continue my learning journey!</p>
+            </div>
+        </section>
+        <section id="education-section">
+            <div id="education" class="all common">
+                <h1 class="heading">Education</h1>
+                <hr class="headline">
+                <p class="stmt">My academic journey in computer science and technology</p>
+                <div class="cards">
+                    <div class="big-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-mortarboard"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Bachelor of Technology in Computer Science</p>
+                                <p>PW Institute of Innovation</p>
+                            </div>
+                            <div class="list c1"><span>Currently Persuing</span></div>
+                        </div>
+                        <div class="duration">
+                            <p><i class="bi bi-geo-alt"></i> Thane, Maharashtra</p>
+                            <p><i class="bi bi-calendar"></i> 2025 - 2029</p>
+                        </div>
+                        <div class="content">First-year student building strong foundations in programming, algorithms, data structures, and software development. Actively engaged in coursework and hands-on projects.</div>
+                        <div class="list c1">
+                            <span>Data Structures</span>
+                            <span>Algorithms</span>
+                            <span>Web Development</span>
+                            <span>AIML</span>
+                            <span>Software Engineering</span>
+                        </div>
+                    </div>
+                    <div class="big-card">
+                        <div class="card-top">
+                            <div class="icon"><i class="bi bi-book"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Higher Secondary Education (11th & 12th)</p>
+                                <p>Saraswati Vidyalaya</p>
+                            </div>
+                            <div class="list c1"><span>Completed</span></div>
+                        </div>
+                        <div class="duration">
+                            <p><i class="bi bi-geo-alt"></i> Thane, Maharashtra</p>
+                            <p><i class="bi bi-calendar"></i> 2023 - 2025</p>
+                        </div>
+                        <div class="content">First-year student building strong foundations in programming, algorithms, data structures, and software development. Actively engaged in coursework and hands-on projects.</div>
+                        <div class="list c1">
+                            <span>Physics</span>
+                            <span>Chemistry</span>
+                            <span>Mathemactics</span>
+                            <span>Computer Science</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="vision-section">
+            <div id="vision" class="all">
+                <h1 class="heading">Career Vision & Goals</h1>
+                <hr class="headline">
+                <p class="stmt">Building India's technological future</p>
+                <div class="vision-info">
+                    <div class="vision-info-card cards">
+                        <div class="heading"><i class="bi bi-award"></i> The Indus Vision</div>
+                        <div class="card-heading">My dream is to create 'Indus' — a proudly Indian technology brand that embodies the spirit of innovation and excellence of the ancient Indus Valley Civilization.</div>
+                        <div class="vision-inspiration">
+                            <div><i class="bi bi-geo-alt"></i> Inspired by Heritage: Named after one of the world's most advanced ancient civilizations, representing India's legacy of innovation and progress.</div>
+                            <div><i class="bi bi-bullseye"></i> Make in India: Contributing to national initiatives by manufacturing world-class devices on Indian soil, for India and the world.</div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card vision-small-card">
+                            <div class="icon"><i class="bi bi-phone"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">World-Class Technology</p>
+                                <p class="card-stmt">Creating high-quality, innovative mobile and computer devices that compete globally while being designed for Indian users.</p>
+                            </div>
+                        </div>
+                        <div class="card vision-small-card">
+                            <div class="icon"><i class="bi bi-bullseye"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Technological Independence</p>
+                                <p class="card-stmt">Contributing to India’s self-reliance in technology by developing indigenous hardware and software solutions that reduce external dependency.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card vision-small-card">
+                            <div class="icon"><i class="bi bi-people-fill"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Job Creation & Innovation</p>
+                                <p class="card-stmt">Establishing manufacturing and R&D facilities in India, creating employment opportunities and fostering local talent.</p>
+                            </div>
+                        </div>
+                        <div class="card vision-small-card">
+                            <div class="icon"><i class="bi bi-graph-up-arrow"></i></div>
+                            <div class="card-content">
+                                <p class="card-heading">Affordable Excellence</p>
+                                <p class="card-stmt">Delivering premium technology at accessible prices, ensuring every Indian can benefit from cutting-edge devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-vision">
+                        <p class="vision-content"><span>Why this matters:</span> Technology has the power to transform lives, drive economic growth, and shape the future. By creating an Indian technology brand that competes globally, I want to prove that India can design, innovate, and manufacture products that the world admires. This journey starts with education, continues with dedication, and culminates in creating something that makes every Indian proud.</p>
+                        <p>I'm at the beginning of this ambitious journey, and I'm committed to acquiring every skill, building every connection, and seizing every opportunity that brings this vision closer to reality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-section">
+            <div id="contact" class="all common">
+                <h1 class="heading">Get In Touch</h1>
+                <hr class="headline">
+                <p class="stmt">Let's connect and build something amazing together!</p>
+                <div class="details">
+                    <div>
+                        <div>
+                            <p class="card-heading talk">Let's Talk</p>
+                            <p>I'm always excited to connect with fellow students, developers, mentors, and anyone interested in technology and innovation. Whether you want to collaborate on a project, share ideas, or just have a conversation about tech, feel free to reach out!</p>
+                        </div>
+                        <div class="card-grid">
+                            <div class="card1">
+                                <div class="card-top">
+                                    <div class="icon"><i class="bi bi-envelope"></i></div>
+                                    <div class="card-content">
+                                        <p class="card-heading1">Email</p>
+                                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRpcckvTQfTqzsHRTxcxwcmTNRGBKsClNPWPLgChBvjXZtPFcTpcxnDWGbzDlRQSQlMZjkQ" class="card-body1" target="_blank">khushiagarwalg1@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1">
+                                <div class="card-top">
+                                    <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                                    <div class="card-content">
+                                        <p class="card-heading1">Location</p>
+                                        <p class="card-body1">Thane, Maharashtra, India</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1">
+                                <div class="card-top">
+                                    <div class="icon"><i class="bi bi-linkedin"></i></div>
+                                    <div class="card-content">
+                                        <p class="card-heading1">LinkedIn</p>
+                                        <a href="https://www.linkedin.com/in/khushi-agarwal-a37846381/" class="card-body1" target="_blank">linkedin.com/in/khushi-agarwal</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card1">
+                                <div class="card-top">
+                                    <div class="icon"><i class="bi bi-github"></i></div>
+                                    <div class="card-content">
+                                        <p class="card-heading1">GitHub</p>
+                                        <a href="https://github.com/Khushi-agarwal1401" class="card-body1" target="_blank">github.com/khushiagarwal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card send">
+                        <form action="Portfolio.html" method="post">
+                            <h2>Send a Message</h2>
+                            <div class="send-form">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="send-form">
+                                <label for="email">Your Email</label>
+                                <input type="email" name="email" id="email" placeholder="your.email@example.com">
+                            </div>
+                            <div class="send-form">
+                                <label for="message">Your Message</label>
+                                <textarea name="message" id="message" placeholder="Tell me about your ideas,projects,or just say hi!"></textarea>
+                            </div>
+                            <button type="submit"><i class="bi bi-send"></i> Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr class="footer-line">
+        <div class="last-div">
+            <p class="lastsec-stmt">"Every line of code brings me one step closer to building India's technological future."</p>
+            <p class="copyright">© 2025 Khushi Agarwal. Built with passion and purpose.</p>
+        </div>
+    </footer>
 </body>
 </html>
