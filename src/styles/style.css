@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
-
+/* Fonts are loaded asynchronously via index.html */
 :root {
   /* Premium UI Variables */
   --font-body: 'Inter', sans-serif;
@@ -245,13 +244,13 @@ h2 { text-align: center; font-size: 1.75rem; margin-bottom: 32px; color: var(--c
 .list.c1 span { background: #eff6ff; color: #1d4ed8; }
 #c2 span { background: #f0fdf4; color: #15803d; }
 #c3 span { background: #fdf4ff; color: #86198f; }
-#c4 span { background: #fff7ed; color: #ea580c; }
+#c4 span { background: #fff7ed; color: #c2410c; }
 
 /* Special Icon Colors */
 #icon1 { background: #eff6ff; color: #1d4ed8; }
 #icon2 { background: #f0fdf4; color: #15803d; }
 #icon3 { background: #fdf4ff; color: #86198f; }
-#icon4 { background: #fff7ed; color: #ea580c; }
+#icon4 { background: #fff7ed; color: #c2410c; }
 #icon1, #icon2, #icon3, #icon4 { flex-shrink: 0; }
 
 /* Projects */
@@ -353,7 +352,7 @@ h2 { text-align: center; font-size: 1.75rem; margin-bottom: 32px; color: var(--c
 .send-form { margin-bottom: 24px; }
 .send-form label { display: block; font-weight: 600; font-size: 0.85rem; color: var(--color-text-main); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
 .send-form input, .send-form textarea { width: 100%; padding: 14px 16px; border: 1.5px solid var(--color-border); border-radius: var(--border-radius-md); font-family: var(--font-body); font-size: 1rem; transition: var(--transition); background: var(--color-bg-alt); color: var(--color-text-main); }
-.send-form input::placeholder, .send-form textarea::placeholder { color: #94a3b8; }
+.send-form input::placeholder, .send-form textarea::placeholder { color: #475569; }
 .send-form input:focus, .send-form textarea:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); background: white;}
 .send-form textarea { height: 165px; resize: none; }
 
