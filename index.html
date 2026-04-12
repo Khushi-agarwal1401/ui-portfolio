@@ -368,21 +368,23 @@
                         </div>
                     </div>
                     <div class="card send">
-                        <form action="Portfolio.html" method="post" id="contact-form">
+                        <form action="https://formsubmit.co/khushiagarwalg1@gmail.com" method="POST" id="contact-form">
                             <h2>Send a Message</h2>
                             <p class="form-subtitle">Fill out the form below and I'll get back to you as soon as possible.</p>
                             <div class="send-form">
                                 <label for="name">Your Name</label>
-                                <input type="text" name="name" id="name" placeholder="Enter your name">
+                                <input type="text" name="name" id="name" placeholder="Enter your name" required>
                             </div>
                             <div class="send-form">
                                 <label for="email">Your Email</label>
-                                <input type="email" name="email" id="email" placeholder="your.email@example.com">
+                                <input type="email" name="email" id="email" placeholder="your.email@example.com" required>
                             </div>
                             <div class="send-form">
                                 <label for="message">Your Message</label>
-                                <textarea name="message" id="message" placeholder="Tell me about your ideas, projects, or just say hi!"></textarea>
+                                <textarea name="message" id="message" placeholder="Tell me about your ideas, projects, or just say hi!" required></textarea>
                             </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
                             <button type="submit"><i class="bi bi-send"></i> Send Message</button>
                         </form>
                     </div>

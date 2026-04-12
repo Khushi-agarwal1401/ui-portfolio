@@ -22,23 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Simple Form Submission Handler
-    const contactForm = document.querySelector('.send form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            if (name && email && message) {
-                alert(`Hello ${name}! Thank you for reaching out. This is a demo - your message would be sent to khushiagarwalg1@gmail.com in a real application.`);
-                contactForm.reset();
-            } else {
-                alert('Please fill in all the details before sending.');
-            }
-        });
-    }
+    // Removed custom Form Submission Handler to allow formsubmit.co to handle it naturally.
 
     // Add a simple scroll-to-top button feature directly via JS (creating element)
     const scrollTopBtn = document.createElement('button');
